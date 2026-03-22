@@ -96,13 +96,13 @@ By targeting high-risk and medium-risk customers, businesses can significantly i
 
 📄 Detailed Insights
 
-(View Insights & Recommendations) 
+([View Insights & Recommendations](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/docs/Insights_recommendations..md)) 
 
 ⸻
 
 🔗 Dataset
 
-Kaggle - Bank Customer Churn Dataset
+(Kaggle - Bank Customer Churn Dataset)
 
 ⸻
 
