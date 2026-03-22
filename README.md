@@ -51,14 +51,6 @@ This project analyzes customer churn data to identify high-risk customers and ke
 
 ---
 
-## 📁 Repository Structure
-	•	dashboard/ → Power BI file & dashboard images
-	•	sql/ → SQL queries
-	•	docs/ → Insights and recommendations
-	•	data/ → Dataset reference
-
----
-
 ## ▶️ How to Use
 	1.	Download the .pbix file from the dashboard/ folder
 	2.	Open it in Power BI Desktop
