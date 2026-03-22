@@ -102,7 +102,7 @@ By targeting high-risk and medium-risk customers, businesses can significantly i
 
 🔗 Dataset
 
-(Kaggle - Bank Customer Churn Dataset)
+([Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset))
 
 ⸻
 
