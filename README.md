@@ -13,7 +13,7 @@ This project uses Power BI and SQL to analyze customer churn patterns, identify 
 ## 📊 Dashboard Preview
 
 ### Customer Risk Overview
-![Dashboard](Customer churn Risk dashboard page1.png)
+![Dashboard]([Customer churn Risk dashboard page1.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page1.png))
 
 ### Churn Drivers & Recommendations
 ![Dashboard](Customer churn Risk dashboard page2.png)
