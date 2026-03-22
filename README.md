@@ -20,10 +20,10 @@ This project analyzes customer churn data to identify high-risk customers and ke
 ## 📊 Dashboard Preview
 
 ### Customer Risk Overview
-![Dashboard]([Customer churn Risk dashboard page1.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page1.png))
+[Customer churn Risk dashboard page1.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page1.png)
 
 ### Churn Drivers & Recommendations
-![Dashboard]([Customer churn Risk dashboard page2.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page2.png))
+[Customer churn Risk dashboard page2.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page2.png)
 
 ---
 
@@ -70,14 +70,14 @@ GROUP BY Country;
  from bank_churn
  having risk_score >= 4;
 
-⸻
+---
 
 ## 🛠 Tools & Technologies
 	•	Power BI – Dashboard development & visualization
 	•	DAX – Data modeling and risk scoring
 	•	SQL – Data querying and analysis
 
-⸻
+---
 
 ## 📁 Repository Structure
 	•	dashboard/ → Power BI file & dashboard images
@@ -85,33 +85,33 @@ GROUP BY Country;
 	•	docs/ → Insights and recommendations
 	•	data/ → Dataset reference
 
-⸻
+---
 
 ## ▶️ How to Use
 	1.	Download the .pbix file from the dashboard/ folder
 	2.	Open it in Power BI Desktop
 	3.	Explore interactive visuals and filters
 
-⸻
+---
 
 ## 📈 Business Impact
 
 This analysis highlights that customer churn is primarily driven by low engagement.
 By targeting high-risk and medium-risk customers, businesses can significantly improve retention and reduce churn.
 
-⸻
+---
 
 ## 📄 Detailed Insights
 
 ([View Insights & Recommendations](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/docs/Insights_recommendations..md)) 
 
-⸻
+---
 
 ## 🔗 Dataset
 
-([Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset))
+[Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
 
-⸻
+---
 
 ## ⭐ Project Highlights
 	•	End-to-end data analysis project
