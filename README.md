@@ -1,7 +1,14 @@
 # 📊 Bank Customer Churn Analysis (Power BI)
 
-## 🚀 Project Overview
 This project analyzes customer churn data to identify high-risk customers and key churn drivers. The goal is to provide actionable insights that help businesses improve customer retention and reduce revenue loss.
+
+## Table of Contents
+1 [Project Overview] (🚀 Project Overview)
+
+## 🚀 Project Overview
+
+
+
 
 ---
 
