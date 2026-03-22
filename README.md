@@ -42,35 +42,6 @@ This project analyzes customer churn data to identify high-risk customers and ke
 - Cross-sell products to single-product customers to increase engagement  
 - Improve engagement for inactive users through campaigns  
 - Focus on medium-risk segment to reduce overall churn volume  
-
----
-
-## 🧾 SQL Analysis
-Key queries used for churn analysis:
-
-```sql
--- Churn Rate by Geography
-SELECT Country,
-       COUNT(*) AS Total_Customers,
-       SUM(Exited) AS Churned_Customers,
-       ROUND(SUM(Exited)/COUNT(*)*100,2) AS Churn_Rate
-FROM bank_churn
-GROUP BY Country;
-
--- High Risk Customers
-  select * ,
-(
- (case when credit_score < 600 then 1 else 0 end) +
- (case when age > 45 then 1 else 0 end) +
- (case when tenure < 3 then 1 else 0 end) +
- (case when balance > 100000 then 1 else 0 end) +
- (case when  active_member = 0 then 1 else 0 end) 
- ) 
- as Risk_Score
- from bank_churn
- having risk_score >= 4;
-
----
 ---
 
 ## 🛠 Tools & Technologies
@@ -118,4 +89,33 @@ By targeting high-risk and medium-risk customers, businesses can significantly i
 	•	End-to-end data analysis project
 	•	Business-focused insights and recommendations
 	•	Interactive dashboard with real-world use case
+---
+
+## 🧾 SQL Analysis
+Key queries used for churn analysis:
+
+```sql
+-- Churn Rate by Geography
+SELECT Country,
+       COUNT(*) AS Total_Customers,
+       SUM(Exited) AS Churned_Customers,
+       ROUND(SUM(Exited)/COUNT(*)*100,2) AS Churn_Rate
+FROM bank_churn
+GROUP BY Country;
+
+-- High Risk Customers
+  select * ,
+(
+ (case when credit_score < 600 then 1 else 0 end) +
+ (case when age > 45 then 1 else 0 end) +
+ (case when tenure < 3 then 1 else 0 end) +
+ (case when balance > 100000 then 1 else 0 end) +
+ (case when  active_member = 0 then 1 else 0 end) 
+ ) 
+ as Risk_Score
+ from bank_churn
+ having risk_score >= 4;
+
+---
+
 
