@@ -72,14 +72,14 @@ GROUP BY Country;
 
 ⸻
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 	•	Power BI – Dashboard development & visualization
 	•	DAX – Data modeling and risk scoring
 	•	SQL – Data querying and analysis
 
 ⸻
 
-📁 Repository Structure
+## 📁 Repository Structure
 	•	dashboard/ → Power BI file & dashboard images
 	•	sql/ → SQL queries
 	•	docs/ → Insights and recommendations
@@ -87,33 +87,33 @@ GROUP BY Country;
 
 ⸻
 
-▶️ How to Use
+## ▶️ How to Use
 	1.	Download the .pbix file from the dashboard/ folder
 	2.	Open it in Power BI Desktop
 	3.	Explore interactive visuals and filters
 
 ⸻
 
-📈 Business Impact
+## 📈 Business Impact
 
 This analysis highlights that customer churn is primarily driven by low engagement.
 By targeting high-risk and medium-risk customers, businesses can significantly improve retention and reduce churn.
 
 ⸻
 
-📄 Detailed Insights
+## 📄 Detailed Insights
 
 ([View Insights & Recommendations](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/docs/Insights_recommendations..md)) 
 
 ⸻
 
-🔗 Dataset
+## 🔗 Dataset
 
 ([Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset))
 
 ⸻
 
-⭐ Project Highlights
+## ⭐ Project Highlights
 	•	End-to-end data analysis project
 	•	Business-focused insights and recommendations
 	•	Interactive dashboard with real-world use case
