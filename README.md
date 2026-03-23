@@ -3,16 +3,28 @@
 This project analyzes customer churn data to identify high-risk customers and key churn drivers. The goal is to provide actionable insights that help businesses improve customer retention and reduce revenue loss.
 
 ## Table of Contents
-1 [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
+* [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
+* [Problem Statement]
 
-## 🚀 Project Overview
+##  Project Overview
 
+## Project Overview
 
+This project focuses on analyzing bank customer data to identify the key factors contributing to customer churn using Power BI, SQL, and Excel. The objective is to transform raw data into meaningful insights through data cleaning, transformation, and interactive visualizations.
 
+The analysis explores customer demographics, financial behavior, and account activity to uncover patterns, trends, and correlations associated with churn. By leveraging dashboards and KPIs, the project highlights high-risk customer segments and the main drivers behind customer attrition.
+
+Based on the insights generated, this project provides actionable recommendations to help the bank reduce churn, improve customer retention strategies, and optimize costs related to customer acquisition. It also enables the identification of at-risk customers, allowing for targeted and personalized retention efforts to enhance overall customer experience.
 
 ---
 
-## 🎯 Objective
+## Problem Statement
+
+The bank is experiencing a high rate of customer churn, resulting in increased customer acquisition costs and reduced overall profitability. To effectively address this issue, the bank needs a data-driven approach to understand the key factors influencing customer attrition.
+This project leverages Sql and  Power BI to analyze customer demographics, account activity, and financial behavior to identify patterns associated with churn. By developing interactive dashboards and key performance indicators (KPIs), the analysis aims to highlight high-risk customer segments and the primary drivers of churn.
+The insights generated will support the bank in making informed business decisions, improving customer retention strategies, and enabling targeted actions to reduce churn and enhance customer lifetime value.
+
+## Objective
 - Identify customers likely to churn  
 - Analyze key factors driving churn  
 - Provide data-driven recommendations to improve retention  
