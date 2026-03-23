@@ -4,11 +4,18 @@ This project analyzes customer churn data to identify high-risk customers and ke
 
 ## Table of Contents
 * [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
-* [Problem Statement]
+* [[Problem Statement](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)]
+* [Objective]
+* [Data Source]
+* [Data Dictionary]
+* [Data Cleaning & Preparation]
+* [Dashboard]
+* [Insights]
+* [Recommendation]
+* [SQL Analysis]
+  
 
 ##  Project Overview
-
-## Project Overview
 
 This project focuses on analyzing bank customer data to identify the key factors contributing to customer churn using Power BI, SQL, and Excel. The objective is to transform raw data into meaningful insights through data cleaning, transformation, and interactive visualizations.
 
@@ -24,12 +31,110 @@ The bank is experiencing a high rate of customer churn, resulting in increased c
 This project leverages Sql and  Power BI to analyze customer demographics, account activity, and financial behavior to identify patterns associated with churn. By developing interactive dashboards and key performance indicators (KPIs), the analysis aims to highlight high-risk customer segments and the primary drivers of churn.
 The insights generated will support the bank in making informed business decisions, improving customer retention strategies, and enabling targeted actions to reduce churn and enhance customer lifetime value.
 
+---
+
 ## Objective
+
 - Identify customers likely to churn  
 - Analyze key factors driving churn  
-- Provide data-driven recommendations to improve retention  
+- Provide data-driven recommendations to improve retention
 
-## 📊 Dashboard Preview
+---
+
+## Data Source
+
+- **Domain:** Banking  
+- **Dataset:** Bank Customer Churn Dataset  
+- **Source:** [kaggle dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset) 
+- **Data Files:** Bank_Churn.csv 
+- **Data Type:** CSV 
+- **Dataset Size:** Contains data for approximately 10,000 customers.
+
+This dataset includes customer demographic details, account information, and banking behavior, which are used to analyze patterns and identify factors contributing to customer churn.
+
+---
+
+## Data Dictionary
+
+This section provides a detailed understanding of each feature used in the analysis and its relevance to customer churn.
+
+1. **Customer_Id**  
+   Unique identifier assigned to each customer. It has no direct influence on churn behavior.
+
+2. **CreditScore**  
+   Numerical representation of a customer’s creditworthiness. Customers with higher credit scores are generally less likely to churn.  
+   - Excellent: 800–850  
+   - Very Good: 740–799  
+   - Good: 670–739  
+   - Fair: 580–669  
+   - Poor: 350–579  
+
+3. **Country**  
+   Customer’s location (e.g., country/region). Geographic factors can influence churn due to regional differences in services and competition.
+
+4. **Gender**  
+   Indicates whether the customer is male or female. This feature is analyzed to identify any behavioral differences in churn patterns.
+
+5. **Age**  
+   Customer’s age. Typically, younger customers show higher churn rates compared to older customers.
+
+6. **Tenure**  
+   Number of years the customer has been associated with the bank. Customers with longer tenure are generally more loyal and less likely to churn.
+
+7. **Balance**  
+   Account balance of the customer. Higher balance customers are usually less likely to leave the bank.
+
+8. **Products_number**  
+    Total number of bank products (e.g., savings, credit cards, loans) held by the customer. Customers with more products tend to be more engaged and less likely to churn.
+
+9. **Credit_card**
+    Indicates whether the customer owns a credit card.  
+    - 1: Has credit card  
+    - 0: Does not have a credit card  
+
+10. **Active_member**  
+    Indicates customer activity status.  
+    - 1: Active customer  
+    - 0: Inactive customer  
+    Active customers are less likely to churn.
+
+11. **Estimated_Salary**  
+    Estimated annual income of the customer. Customers with higher salaries are generally more stable and less likely to leave.
+
+12. **Exited**  
+    Target variable indicating churn status.  
+    - 0: Customer retained  
+    - 1: Customer exited  
+
+---
+
+## Data Cleaning & Preparation
+
+- Removed duplicate records to ensure data accuracy.  
+- Dropped irrelevant columns such as RowNumber, CustomerId, and Surname.  
+- Standardized data types across CSV and Excel files.  
+- Cleaned and formatted text fields by removing inconsistencies and special characters.  
+- Handled missing/null values appropriately.  
+- Ensured consistency in numerical data (e.g., balance, salary).  
+- Transformed and structured data for efficient analysis in Power BI.
+
+---
+
+## End-to-End Tasks Performed (Data Analyst Lifecycle)
+
+• Requirement Understanding (Churn Analysis Objectives)  
+• Data Collection (Kaggle – CSV)  
+• Data Cleaning / Pre-processing  
+• Data Modelling (Relationships between datasets)  
+• Data Visualization (Power BI Dashboards & Charts)  
+• DAX Calculations (KPIs & Measures)  
+• Report Publishing (Power BI Service)  
+• Dashboard Creation & Sharing
+
+---
+
+---
+## Dashboard 
 
 ### Customer Risk Overview
 [Customer churn Risk dashboard page1.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page1.png)
@@ -39,7 +144,8 @@ The insights generated will support the bank in making informed business decisio
 
 ---
 
-## 📈 Key Insights
+## Key Insights
+
 - ~480 high-risk customers (~5%) show highest churn probability  
 - Customers with 1 product (~50%) contribute most to churn  
 - Inactive customers (~35–40%) have significantly higher churn  
@@ -49,54 +155,26 @@ The insights generated will support the bank in making informed business decisio
 
 ---
 
-## 💡 Recommendations
+## Recommendations
+
 - Target high-risk customers with personalized retention strategies  
 - Cross-sell products to single-product customers to increase engagement  
 - Improve engagement for inactive users through campaigns  
 - Focus on medium-risk segment to reduce overall churn volume  
----
-
-## 🛠 Tools & Technologies
-	•	Power BI – Dashboard development & visualization
-	•	DAX – Data modeling and risk scoring
-	•	SQL – Data querying and analysis
 
 ---
 
-## ▶️ How to Use
-	1.	Download the .pbix file from the dashboard/ folder
-	2.	Open it in Power BI Desktop
-	3.	Explore interactive visuals and filters
+## Tools & Technologies
+
+- Power BI – Dashboard development & visualization
+- DAX – Data modeling and risk scoring
+- SQL – Data querying and analysis
 
 ---
 
-## 📈 Business Impact
+##  SQL Analysis
 
-This analysis highlights that customer churn is primarily driven by low engagement.
-By targeting high-risk and medium-risk customers, businesses can significantly improve retention and reduce churn.
-
----
-
-## 📄 Detailed Insights
-
-([View Insights & Recommendations](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/docs/Insights_recommendations..md)) 
-
----
-
-## 🔗 Dataset
-
-[Kaggle - Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
-
----
-
-## ⭐ Project Highlights
-	•	End-to-end data analysis project
-	•	Business-focused insights and recommendations
-	•	Interactive dashboard with real-world use case
----
-
-## 🧾 SQL Analysis
-Key queries used for churn analysis:
+Key queries used for churn analysis: [(SQL file)]
 
 ```sql
 -- Churn Rate by Geography
