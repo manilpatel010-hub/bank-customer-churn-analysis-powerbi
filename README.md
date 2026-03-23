@@ -3,7 +3,7 @@
 This project analyzes customer churn data to identify high-risk customers and key churn drivers. The goal is to provide actionable insights that help businesses improve customer retention and reduce revenue loss.
 
 ## Table of Contents
-* [Project Overview (https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)]
+* [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
 * [Problem Statement(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)]
 * [Objective(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#objective)]
 * [Data Source(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-source)]
