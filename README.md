@@ -4,15 +4,15 @@ This project analyzes customer churn data to identify high-risk customers and ke
 
 ## Table of Contents
 * [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
-* [Problem Statement(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)]
-* [Objective(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#objective)]
-* [Data Source(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-source)]
-* [Data Dictionary(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-dictionary)]
-* [Data Cleaning & Preparation(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-cleaning--preparation)]
-* [Dashboard(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#dashboard)]
-* [Insights(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#key-insights)]
-* [Recommendation(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#recommendations)]
-* [SQL Analysis(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#sql-analysis)]
+* [Problem Statement](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)
+* [Objective](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#objective)
+* [Data Source](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-source)
+* [Data Dictionary](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-dictionary)
+* [Data Cleaning & Preparation](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-cleaning--preparation)
+* [Dashboard](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#dashboard)
+* [Insights](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#key-insights)
+* [Recommendation](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#recommendations)
+* [SQL Analysis](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#sql-analysis)
   
 
 ##  Project Overview
@@ -115,7 +115,7 @@ This section provides a detailed understanding of each feature used in the analy
 - Standardized data types across CSV and Excel files.  
 - Cleaned and formatted text fields by removing inconsistencies and special characters.  
 - Handled missing/null values appropriately.  
-- Ensured consistency in numerical data (e.g., balance, salary).  
+- Ensured consistency in numerical data (e.g., balance ).  
 - Transformed and structured data for efficient analysis in Power BI.
 
 ---
@@ -142,8 +142,9 @@ This section provides a detailed understanding of each feature used in the analy
 ### Churn Drivers & Recommendations
 [Customer churn Risk dashboard page2.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page2.png)
 
-### live Dashboard
-[[Power BI Dashboard](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/bank%20churn%20analysis%20dashboard.pbix)]
+### Live Dashboard
+[Power BI Dashboard](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/bank%20churn%20analysis%20dashboard.pbix)
+
 ---
 
 ## Key Insights
@@ -176,7 +177,7 @@ This section provides a detailed understanding of each feature used in the analy
 
 ##  SQL Analysis
 
-Key queries used for churn analysis: [[(SQL file)](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/sql/bank_churn_analysis.sql)]
+Key queries used for churn analysis: [(SQL)](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/sql/bank_churn_analysis.sql)
 
 ```sql
 -- Churn Rate by Geography
