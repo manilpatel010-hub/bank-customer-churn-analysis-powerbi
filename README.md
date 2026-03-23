@@ -138,9 +138,16 @@ This section provides a detailed understanding of each feature used in the analy
 
 ### Customer Risk Overview
 [Customer churn Risk dashboard page1.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page1.png)
+<img width="1078" height="701" alt="churn_dashboard_page1" src="https://github.com/user-attachments/assets/bc7a628b-a4d5-46fb-992c-0ef10bd73f80" />
+
+
+
 
 ### Churn Drivers & Recommendations
 [Customer churn Risk dashboard page2.png](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/churn_dashboard_page2.png)
+<img width="1287" height="716" alt="churn_dashboard_page2" src="https://github.com/user-attachments/assets/d934c5f0-2493-4542-a66e-8b553015efce" />
+
+
 
 ### Live Dashboard
 [Power BI Dashboard](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/Dashboard/bank%20churn%20analysis%20dashboard.pbix)
