@@ -3,16 +3,16 @@
 This project analyzes customer churn data to identify high-risk customers and key churn drivers. The goal is to provide actionable insights that help businesses improve customer retention and reduce revenue loss.
 
 ## Table of Contents
-* [Project Overview](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)
-* [[Problem Statement](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)]
-* [[Objective](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#objective)]
-* [[Data Source](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-source)]
-* [[Data Dictionary](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-dictionary)]
-* [[Data Cleaning & Preparation](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-cleaning--preparation)]
-* [[Dashboard](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#dashboard)]
-* [[Insights](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#key-insights)]
-* [[Recommendation](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#recommendations)]
-* [[SQL Analysis](https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#sql-analysis)]
+* [Project Overview(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#-project-overview)]
+* [Problem Statement(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#problem-statement)]
+* [Objective(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#objective)]
+* [Data Source(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-source)]
+* [Data Dictionary(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-dictionary)]
+* [Data Cleaning & Preparation(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#data-cleaning--preparation)]
+* [Dashboard(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#dashboard)]
+* [Insights(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#key-insights)]
+* [Recommendation(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#recommendations)]
+* [SQL Analysis(https://github.com/manilpatel010-hub/bank-customer-churn-analysis-powerbi/blob/main/README.md#sql-analysis)]
   
 
 ##  Project Overview
